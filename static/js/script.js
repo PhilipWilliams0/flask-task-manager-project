@@ -1,10 +1,9 @@
-// sidenav expand
+
 $(document).ready(function () {
   $(".sidenav").sidenav({ edge: "right" });
+  $(".collapsible").collapsible();
+  $(".tooltipped").tooltip();
 });
 
-// tasks section expand
-$(document).ready(function(){
-  $('.collapsible').collapsible();
-});
+
       
